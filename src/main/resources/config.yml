@@ -1,0 +1,34 @@
+bot-token: exampletoken # NIE UDOSTEPNIAJ NIKOMU!!!
+discord-channel-id: exampleid
+
+# Komendy której mają się wykonać na przyznanie nagrody
+commands:
+  - give %player% diamond 5
+
+# Wiadomość dla każdego gracza na serwerze
+broadcast-message: "&aGracz %player% odebrał nagrodę discord ty też możesz to zrobić wchodząc na: discord.gg/twojlink"
+
+# Wygląd Embeda po próbie odebrania nagrody ponownie
+embed-recieved:
+  title: "Otrzymales juz Nagrodę!"
+  color: "#E31E1E"
+  description:
+    - "Otrzymałeś już nagrodę!"
+    - "Nie możesz odebrać jej kilka razy"
+  thumbnail: "https://cdn.discordapp.com/attachments/1358719974629445733/1495199181927612567/content.png?ex=69e56040&is=69e40ec0&hm=153108e8ed45c19e7a408bce339c6c0f35d2dea65c1b792415aa73f576d4e1c8&"
+# Wygląd Embeda po nie znalezieniu gracza na serwerze
+embed-notOnline:
+  title: "Tego Gracze nie ma na serwerze!"
+  color: "#E31E1E"
+  description:
+    - "Ten gracz jest offline/lub nie ma go na serwerze!"
+    - "Prosze upewnij się że dobrze wpisałeś nick!"
+  thumbnail: "https://cdn.discordapp.com/attachments/1358719974629445733/1495199181927612567/content.png?ex=69e56040&is=69e40ec0&hm=153108e8ed45c19e7a408bce339c6c0f35d2dea65c1b792415aa73f576d4e1c8&"
+# Wygląd Embeda po pomyślnym otrzymaniu nagrody
+embed-Success:
+  title: "Odebrales Nagrodę!"
+  color: "#0DD939"
+  description:
+    - "Właśnie odebrałeś nagrodę za discord!"
+    - "Za chwilę powinieneś otrzymać nagrodę w Minecraft!"
+  thumbnail: "https://cdn.discordapp.com/attachments/1358719974629445733/1495199611936051310/content.png?ex=69e560a6&is=69e40f26&hm=0c9b0ccf98fb47797ea863351aeae596157529d1a28e678ced2ab74e6bdf919a&"
