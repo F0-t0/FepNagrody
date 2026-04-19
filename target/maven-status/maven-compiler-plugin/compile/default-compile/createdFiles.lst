@@ -1,0 +1,4 @@
+fepbox\plugin\fepNagrody\FepNagrody.class
+fepbox\plugin\fepNagrody\listeners\DiscordListener$RewardResult.class
+fepbox\plugin\fepNagrody\listeners\DiscordListener.class
+fepbox\plugin\fepNagrody\PlayerDataManger.class

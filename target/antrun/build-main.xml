@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <copy file="C:\Users\Maks\IdeaProjects\DiscordNagrody\target/DiscordNagrody-1.0.jar" todir="C:/DB/Server/TestServer/plugins" overwrite="true" />
+  </target>
+</project>

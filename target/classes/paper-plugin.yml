@@ -1,0 +1,6 @@
+name: FepNagrody
+version: '1.0'
+
+main: fepbox.plugin.fepNagrody.FepNagrody
+api-version: '1.21.10'
+load: POSTWORLD
