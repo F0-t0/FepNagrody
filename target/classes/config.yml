@@ -1,7 +1,7 @@
 bot-token: exampletoken # NIE UDOSTEPNIAJ NIKOMU!!!
 discord-channel-id: exampleid
 
-# Komendy której mają się wykonać na przyznanie nagrody
+# Komendy które mają się wykonać na przyznanie nagrody
 commands:
   - give %player% diamond 5
 

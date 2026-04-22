@@ -4,7 +4,7 @@
   <groupId>fepbox.plugin</groupId>
   <artifactId>FepNagrody</artifactId>
   <name>DiscordNagrody</name>
-  <version>1.0</version>
+  <version>1.0.1</version>
   <build>
     <defaultGoal>clean package</defaultGoal>
     <resources>
@@ -33,24 +33,18 @@
             </goals>
           </execution>
         </executions>
+        <configuration>
+          <relocations>
+            <relocation>
+              <pattern>org.bstats</pattern>
+              <shadedPattern>fepbox.plugin.fepNagrody.libs.bstats</shadedPattern>
+            </relocation>
+          </relocations>
+        </configuration>
       </plugin>
       <plugin>
         <artifactId>maven-antrun-plugin</artifactId>
         <version>3.1.0</version>
-        <executions>
-          <execution>
-            <id>copy-jar-to-testserver-plugins</id>
-            <phase>package</phase>
-            <goals>
-              <goal>run</goal>
-            </goals>
-            <configuration>
-              <target>
-                <copy />
-              </target>
-            </configuration>
-          </execution>
-        </executions>
       </plugin>
     </plugins>
   </build>

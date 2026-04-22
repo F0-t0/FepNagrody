@@ -4,6 +4,7 @@ import fepbox.plugin.fepNagrody.listeners.DiscordListener;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.requests.GatewayIntent;
+import org.bstats.bukkit.Metrics;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class FepNagrody extends JavaPlugin {
@@ -11,6 +12,9 @@ public final class FepNagrody extends JavaPlugin {
     @Override
     public void onEnable() {
         saveDefaultConfig();
+
+        int pluginId = 30898;
+        Metrics metrics = new Metrics(this, pluginId);
 
         PlayerDataManger playerDataManger = new PlayerDataManger(this);
         playerDataManger.setup();
