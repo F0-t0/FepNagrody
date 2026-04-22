@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="132">
 </p>
-<h1 align="center">FEPNagrody</h1>
+
 
 <p align="center">
   <strong>Plugin Paper na nagrody discord.</strong>
@@ -14,7 +14,7 @@
 </p>
 
 
-# FEPNagrody
+<h1 align="center">FEPNagrody</h1>
 
 ## Instalacja:
  1. Pobierz plik FepNagrody.jar
